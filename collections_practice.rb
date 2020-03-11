@@ -13,14 +13,17 @@ def sort_array_desc(array)
 return array
 end
 
-# create a method "sort_array_char_count"
+# create a method "sort_array_char_count" sorting the array by the length of each value from lowest to highest
 def sort_array_char_count(array)
   array = array.sort_by { |l| l.length }
 end
 
 
-
-def sort_array_asc(array)
-  array = array.sort!
+# create a method called "swap_elements" that takes in an array and swaps the second(1) and third(2) elements with each other.
+def swap_elements(array)
+  counter = 0
+  array.each_with_index do |n, i| 
+  if counter = 1   
+  
 return array
 end
