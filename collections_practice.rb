@@ -25,6 +25,7 @@ def swap_elements(array)
   array.each_with_index do |n, i| 
   if counter = 1   
     array[1] = array [2] && array [2] = array[3]
+  counter += 1
   end
 return array
 end
