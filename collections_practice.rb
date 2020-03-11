@@ -15,7 +15,7 @@ end
 
 # create a method "sort_array_char_count"
 def sort_array_char_count(array)
-  array = array.sort { |l| l.length }
+  array = array.sort_by { |l| l.length }
 end
 
 
