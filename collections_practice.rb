@@ -52,3 +52,12 @@ def sum_array(array)
     sum + num
   end
 end
+
+def add_s(array)
+  i = 0
+  array.each_with_index.collect do |word, i|
+    if word[i] != array[1]
+      puts "#{name} s"
+      i += 1
+  end
+end
