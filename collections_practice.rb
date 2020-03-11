@@ -1,4 +1,5 @@
 # create a method "sort_array_asc" that takes a array of numbers(integers) and then sorts it from lowest to highest order
+<<<<<<< HEAD
 
 def sort_array_asc(array)
   array = array.sort!
@@ -16,4 +17,10 @@ end
 def sort_array_char_count(array)
   array = 
 
+=======
+>>>>>>> 68845edc854d4f3cebabe088ed1c5f256cb48176
 
+def sort_array_asc(array)
+  array = array.sort!
+return array
+end
