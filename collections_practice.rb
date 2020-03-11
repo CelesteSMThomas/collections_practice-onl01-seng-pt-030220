@@ -1,5 +1,5 @@
 # create a method "sort_array_asc" that takes a array of numbers(integers) and then sorts it from lowest to highest order
-<<<<<<< HEAD
+
 
 def sort_array_asc(array)
   array = array.sort!
