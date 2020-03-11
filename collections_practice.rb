@@ -39,3 +39,9 @@ def kesha_maker(array)
     ch[2] = "$"
   end
 end
+
+def fina_a(array)
+  array.find_all do |word|
+    word[0] = "a"
+  end
+end
