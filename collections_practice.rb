@@ -57,7 +57,7 @@ def add_s(array)
   counter = 0
   array.each_with_index.collect do |word, i|
     if array[i] != array[1]
-      array[i] = "#{name}s"
+      array[i] = "#{word}s"
       counter += 1
     else 
       array[1] = array [1]
