@@ -18,8 +18,7 @@ def sort_array_char_count(array)
   array = array.sort { |l| l.length }
 end
 
-=======
->>>>>>> 68845edc854d4f3cebabe088ed1c5f256cb48176
+
 
 def sort_array_asc(array)
   array = array.sort!
