@@ -54,10 +54,15 @@ def sum_array(array)
 end
 
 def add_s(array)
-  i = 0
+  counter = 0
   array.each_with_index.collect do |word, i|
-    if word[i] != array[1]
-      puts "#{name} s"
-      i += 1
+    if array[i] != array[1]
+      puts "#{word}s"
+      counter += 1
+    else 
+      array[1] = array [1]
   end
 end
+return array
+end
+
