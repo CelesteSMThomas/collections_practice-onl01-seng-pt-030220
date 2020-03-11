@@ -21,11 +21,7 @@ end
 
 # create a method called "swap_elements" that takes in an array and swaps the second(1) and third(2) elements with each other.
 def swap_elements(array)
-  counter = 0
-  array.each_with_index do |n, i| 
-  if counter = 1   
-    array[1] = array [2] && array [2] = array[3]
-  counter += 1
+  array.swap! (1,2)
   end
 return array
 end
