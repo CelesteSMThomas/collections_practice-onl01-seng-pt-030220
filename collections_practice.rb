@@ -21,7 +21,10 @@ end
 
 # create a method called "swap_elements" that takes in an array and swaps the second(1) and third(2) elements with each other.
 def swap_elements(array)
-  array.swap! (1,2)
-  end
-return array
+  array[1], array[2] = array[2], array[1]
+  array
 end
+
+
+#
+def reverse_array(array)
